@@ -1,0 +1,26 @@
+input[type=Name]{
+    border: 6px solid indigo; 
+  }
+
+  input[type=phonenumber]{
+      border: 6px solid violet;
+  }
+ul>li{
+color:red;
+}
+a:hover{
+    color:teal;
+}
+ul li::before{
+    content: "👌👌";
+}
+ul li::after{
+    content: "👌👌";
+}
+p::first-letter{
+    font-size: 50px;
+    color: olivedrab;
+}
+p{
+    color: darkgoldenrod;
+}
